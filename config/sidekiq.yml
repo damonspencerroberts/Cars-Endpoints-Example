@@ -1,0 +1,7 @@
+:concurrency: 15
+:timeout: 60
+:verbose: true
+:queues:
+  - [critical, 2]
+  - default
+  - mailers
