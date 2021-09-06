@@ -10,7 +10,7 @@ class CarsController < ApplicationController
   def index_by_owner
     owner = Owner.find(cars_params[:owner_id])
     @cars = owner.cars
-    render json: { status: 200, cars: @cars }
+    render json: { status: 200, cars: @cars, owner: owner }
   end
 
   def show
