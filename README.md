@@ -1,24 +1,26 @@
-# README
+# Cars Example for Endpoints in Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an example project to explain how to use rails with Endpoints.
 
-Things you may want to cover:
+### Two Different Columns
+There are two different relational columns used
+- Cars
+- Owners
 
-* Ruby version
+Each car belongs to an owner and an owner can have many cars.
 
-* System dependencies
+### Routes
+GET    /owners(.:format)
+POST   /owners(.:format)                                                                                 
+GET    /owners/:id(.:format)                                                                             
+PATCH  /owners/:id(.:format)                                                                             
+PUT    /owners/:id(.:format)                                                                             
+DELETE /owners/:id(.:format)                                                                             
+GET    /cars(.:format)                                                                                   
+POST   /cars(.:format)                                                                                   
+GET    /cars/:id(.:format)                                                                               
+PATCH  /cars/:id(.:format)                                                                               
+PUT    /cars/:id(.:format)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### More information
+ **More information to come regarding the tutorial**
